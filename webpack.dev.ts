@@ -34,11 +34,10 @@ const config: webpack.Configuration = merge(common, {
         // use: [
         //   // Order of the loaders are important!
         //   { loader: 'style-loader' }, // 3. Inject styles into DOM
-        //   { loader: 'css-modules-typescript-loader' },
         //   { loader: 'css-loader', options: { modules: true } }, // 2. Turns CSS into commonjs
         //   { loader: 'sass-loader' }, // 1. Turns SCSS into CSS
         // ],
-        include: /src/,
+        // include: /src/,
         use: [
           // { loader: "style-loader" }, // 3. Inject styles into DOM
           // {

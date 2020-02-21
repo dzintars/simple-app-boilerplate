@@ -1,1 +1,2 @@
-import "./app-home";
+import './ui'
+import './styles/main.scss'
