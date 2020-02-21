@@ -1,1 +1,2 @@
-import './app-home'
+import './components'
+import './containers'

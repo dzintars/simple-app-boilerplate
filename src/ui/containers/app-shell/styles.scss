@@ -1,0 +1,10 @@
+@import '../../../styles/main';
+
+:host {
+  @include var(main-color, var(--color-dodgerblue-main));
+  display: block;
+}
+
+:host([hidden]) {
+  display: none;
+}

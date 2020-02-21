@@ -1,0 +1,14 @@
+@import '../../../styles/main';
+
+:host {
+  @include var(main-color, green);
+  display: block;
+}
+
+:host([hidden]) {
+  display: none;
+}
+
+h1 {
+  color: var(--main-color, red);
+}

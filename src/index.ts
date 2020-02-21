@@ -1,2 +1,2 @@
 import './ui'
-import './styles/main.scss'
+import './styles/_main.scss'

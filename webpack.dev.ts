@@ -39,10 +39,10 @@ const config: webpack.Configuration = merge(common, {
         // ],
         // include: /src/,
         use: [
-          // { loader: "style-loader" }, // 3. Inject styles into DOM
+          // { loader: 'style-loader' }, // 3. Inject styles into DOM
           // {
-          //   loader: "lit-scss-loader",
-          //   options: { minify: false /* defaults to false */ }
+          //   loader: 'lit-scss-loader',
+          //   options: { minify: false /* defaults to false */ },
           // },
           // { loader: "css-modules-typescript-loader" }, // to generate a .d.ts module next to the .scss file
           // { loader: "extract-loader" },

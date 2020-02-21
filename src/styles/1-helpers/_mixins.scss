@@ -1,0 +1,4 @@
+/** Converts scss style vars to :host style vars */
+@mixin var($name, $var) {
+  --#{$name}: var(--e-#{$name}, #{$var});
+}
