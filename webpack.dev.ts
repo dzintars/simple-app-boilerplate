@@ -15,6 +15,7 @@ const config: webpack.Configuration = merge(common, {
     new HtmlWebpackPlugin({
       template: './src/template.html',
       // template: path.resolve(__dirname, 'src', 'template.html'),
+      favicon: './src/assets/favicon.ico',
       filename: './index.html',
     }),
   ],
@@ -55,11 +56,21 @@ const config: webpack.Configuration = merge(common, {
         use: {
           loader: 'file-loader',
           options: {
-            name: '[name].[hash].[ext]',
             outputPath: '/img',
+            name: '[name].[hash].[ext]',
           },
         },
       },
+      // {
+      //   test: /\.(ico)$/,
+      //   use: {
+      //     loader: 'file-loader',
+      //     options: {
+      //       outputPath: '/',
+      //       name: '[name].[ext]',
+      //     },
+      //   },
+      // },
     ],
   },
 })

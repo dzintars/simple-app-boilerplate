@@ -10,5 +10,9 @@
 }
 
 h1 {
-  color: var(--main-color, red);
+  color: var(--mainx-color, blue);
+}
+
+p {
+  color: $color-dodgerblue-4d;
 }
